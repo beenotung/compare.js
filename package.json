@@ -1,0 +1,35 @@
+{
+  "name": "compare.js",
+  "version": "1.0.0",
+  "description": "compare for sorting",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc -p .",
+    "format": "tslint -p . --fix",
+    "test": "npm run build && npm run format",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Beeno Tung",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "tslint": "^5.9.1",
+    "tslint-eslint-rules": "^5.3.1",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beenotung/compare.js.git"
+  },
+  "keywords": [
+    "compare",
+    "typescript",
+    "javascript"
+  ],
+  "bugs": {
+    "url": "https://github.com/beenotung/compare.js/issues"
+  },
+  "homepage": "https://github.com/beenotung/compare.js#readme"
+}
